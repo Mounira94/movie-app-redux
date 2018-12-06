@@ -11,8 +11,8 @@ class Search extends Component {
                 <div className="rating">
                     <p className="rating-text">Minimuim rating</p>
                     <div className="rating-stars" >
-                       { '******'.split('').map((x,i)=><i onClick={()=>this.props.filterRate(i)} className={this.props.minRate<i?'far fa-star':"fas fa-star yellow" } ></i>
-                    )  }
+                        {'******'.split('').map((x, i) => <i onClick={() => this.props.filterRate(i)} className={this.props.minRate < i ? 'far fa-star' : "fas fa-star yellow"} ></i>
+                        )}
                     </div>
                 </div>
             </div>
